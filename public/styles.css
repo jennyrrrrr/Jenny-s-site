@@ -1,0 +1,70 @@
+/*
+  Jenny Rong
+  Date: Nov 13, 2019
+  Section: CSE 154, AC
+
+  This is the styles.css page for index.html. It is to create a consistant look overall.
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+header {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  background: #c0e3e7;
+  text-align: center;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  border-bottom: 1px solid grey;
+}
+
+main {
+  background-color: white;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  background: url("img/tri.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  width: 80%;
+}
+
+body, #bar, #message-in, #submmit-btn {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bar {
+  justify-content: space-evenly;
+  background-color: #c0e3e7;
+  padding: 12px;
+  border-radius: 10px;
+}
+
+#message-in, #submmit-btn, #bar {
+  display: flex;
+}
+
+#bar, #message-in {
+  width: 500px;
+}
+
+#message-in {
+  height: 100px;
+}
+
+#message-in, #submmit-btn, .card {
+  padding: 8px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card {
+  border: 1px solid black;
+}

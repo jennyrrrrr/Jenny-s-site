@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+Jenny Rong
+Date: Nov 13, 2019
+Section: CSE 154, AC
+
+This is the index.html page for a message board webpage. this website is for users to leave message
+and comments.
+-->
+<html>
+  <head>
+    <title>Message Board</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Message Board</h1>
+      <p>---- Leave your message and comments here ----</p>
+    </header>
+    <main>
+      <h2>Fill in the followings:</h2>
+      <p>Hello, please fill in your contact information first!</p>
+      <div id="bar">
+        <label for="name-in">Name:</label>
+        <input type="text" placeholder="(required)" id="name-in" />
+        <label for="email-in">Email:</label>
+        <input type="text" placeholder="(required)" id="email-in" />
+        <button id="start-btn">Confirm</button>
+      </div>
+      <p id="welcome"></p>
+      <textarea placeholder="Enter Message(required)" id="message-in"></textarea>
+      <button id="submmit-btn">Post</button>
+      <h2>Messages:</h2>
+      <div id="message-list"></div>
+      <div id="error"></div>
+    </main>
+  </body>
+</html>
