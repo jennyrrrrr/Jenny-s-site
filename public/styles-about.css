@@ -1,0 +1,75 @@
+/*
+  Jenny Rong
+  Date: Sep 28, 2019
+  Section: CSE 154, AC
+  This is the styles.css page for my about page website. It is used by all the webpages linked to
+  the website so that the sites can have a consistant look overall (including about.html,
+  index.html, hobby.html, and 404.html).
+*/
+
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+
+header {
+  border-top: 1px solid grey;
+  border-bottom: 0.5px solid black;
+  background: #c0e3e7;
+}
+
+#dice {
+  height: 100%;
+  width: 300px;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  border-bottom: 1px solid grey;
+}
+
+body {
+  font-family: "Quicksand", sans-serif;
+  background: url("img/tri.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+
+section {
+  background: white;
+}
+
+blockquote p, nav {
+  background-color: rgb(177, 177, 177);
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+nav li {
+  float: left;
+  display: block;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 14px 77.5px;
+}
+
+header, nav, #pic-part {
+  text-align: center;
+}
+
+#pic-part {
+  border: 17px solid #c0e3e7;
+}
+
+#pic-part img {
+  width: 150px;
+  height: 150px;
+  margin: 5px;
+}

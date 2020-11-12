@@ -68,3 +68,19 @@ body, #bar, #message-in, #submmit-btn {
 .card {
   border: 1px solid black;
 }
+
+/* ===== */
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+}
+
+nav li {
+  float: left;
+  display: block;
+  border-right: 1px solid black;
+  border-bottom: 1px solid black;
+  padding: 14px 77.5px;
+}

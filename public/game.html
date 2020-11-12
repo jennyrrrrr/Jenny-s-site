@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<!--
+  Jenny Rong
+  Date: Oct 15, 2019
+  Section: CSE 154, AC
+  This is the idex.html page linked to Jenny's about page(about.html). This is a page where the user
+  can play a guessing number game.
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- Some of the styles of this page is the same with the about.html page -->
+    <link rel="stylesheet" href="styles-about.css" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="index.js"></script>
+    <title>Jenny's Webpage</title>
+  </head>
+
+  <body>
+    <header>
+      <h1>Guessing Game</h1>
+      <p>---- Throw two dices and guess the sum of it ----</p>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="hobby.html">Hobby</a></li>
+        <li><a href="game.html">Game</a></li>
+        <li><a href="index.html">Message Board</a></li>
+        <li><a href="404.html">#404</a></li>
+      </ul>
+    </nav>
+    <main>
+      <h2><strong>- Rules:</strong></h2>
+      <ul>
+        <li>Hit <strong><em>Roll the dice</em></strong> and then hit
+          <strong><em>Stop the dice</em></strong>;</li>
+        <li>Enter a guess for the sum of the two dice from <strong><em># 2 - 12</em></strong>;</li>
+        <li>You have <strong><em>3</em></strong> chances & Each wrong guess will lose 1 life;</li>
+        <li>You will receive the <strong><em>Result or Suggestion</em></strong>
+          to you question during the game;</li>
+        <li>Click <strong><em>New Game</em></strong> to start a new round.</li>
+      </ul>
+      <section id="side-by-side">
+        <button id="new-game"># Click To Start A New Game</button>
+        <section id="game">
+          <!--
+            image from webstockreview.net,
+            https://webstockreview.net/explore/dice-clipart-simple/
+          -->
+          <img id="dice" src="img/dices.png" alt="two dice" />
+          <button id="throw-btn">Roll the dice</button>
+          <button id="stop-btn">Stop the dice</button>
+        </section>
+        <ul>
+          <li id="chance">Life left:</li>
+          <li class="heart-pic"><img src="img/heart.png" alt="blue heart1" /></li>
+          <li class="heart-pic"><img src="img/heart.png" alt="blue heart2" /></li>
+          <li class="heart-pic"><img src="img/heart.png" alt="blue heart3" /></li>
+        </ul>
+      </section>
+      <section id="guess-part">
+        <label>Make your guess: <input type="number" id="guess"/></label>
+        <button id="submit">Submit</button>
+      </section>
+      <section id="result">
+        <p id="results"></p>
+        <!--
+          image from giphy.com,
+          https://giphy.com/explore/cute-cat
+        -->
+        <img src="img/kitty.gif" alt="funny cat" />
+      </section>
+    </main>
+    <footer>All picture found from Google Image</footer>
+  </body>
+</html>
