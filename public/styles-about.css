@@ -57,7 +57,8 @@ nav li {
   display: block;
   border-right: 1px solid black;
   border-bottom: 1px solid black;
-  padding: 14px 77.5px;
+  padding: 14px 67px;
+  /* need adjustment */
 }
 
 header, nav, #pic-part {

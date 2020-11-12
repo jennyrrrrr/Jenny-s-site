@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<!--
+Jenny Rong
+Date: Oct 30, 2019
+Section: CSE 154, AC
+This is the index.html page for a taco contribution page. By selecing the contributor's name, the
+users will be able to see their contributions.
+-->
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Taco Contributions</title>
+    <link rel="stylesheet" href="styles-taco.css" />
+    <link rel="stylesheet" href="styles-about.css" />
+    <script src="taco.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Taco Contributions</h1>
+      <p>---- This Page is to See People's Contibution in Taco Recipe Making ----</p>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="about.html">About</a></li>
+        <li><a href="hobby.html">Hobby</a></li>
+        <li><a href="game.html">Game</a></li>
+        <li><a href="taco.html">Tacos</a></li>
+        <li><a href="index.html">Message Board</a></li>
+        <li><a href="404.html">#404</a></li>
+      </ul>
+    </nav>
+
+    <div id="center">
+      <main>
+          <h2>Choose a Contributer:</h2>
+          <div id="bar">
+            <select id="select-contributor"></select>
+            <button id="find-btn">See Contribution</button>
+            <button id="back-btn">Restart</button>
+          </div>
+          <ul id="data"></ul>
+          <div id="error"></div>
+      </main>
+      <footer>
+        <p>Sources: Tacos API [https://github.com/evz/tacofancy-api]</p>
+      </footer>
+    </div>
+  </body>
+</html>
