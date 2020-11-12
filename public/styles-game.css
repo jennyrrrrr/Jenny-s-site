@@ -1,0 +1,88 @@
+/*
+  Jenny Rong
+  Date: Oct 15, 2019
+  Section: CSE 154, AC
+  This is the styles.css page for index.html, it is used to give the page a
+  consistent look and feel.
+*/
+
+main {
+    background-color: white;
+}
+  
+  ul img {
+    height: 30px;
+  }
+  
+  .chance-style {
+    padding: 8px;
+  }
+  
+  #side-by-side li {
+    display: inline;
+  }
+  
+  #side-by-side {
+    position: relative;
+    border: 1px solid black;
+    border-top: 30px solid black;
+    padding: 30px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+  }
+  
+  #game {
+    flex-direction: column;
+  }
+  
+  #new-game {
+    position: absolute;
+    top: -23px;
+  }
+  
+  #side-by-side, #result {
+    margin-top: 20px;
+  }
+  
+  #guess-part {
+    border: 1px solid grey;
+    padding: 50px;
+    margin: auto;
+    width: 300px;
+    height: 40px;
+  }
+  
+  #guess-part, #result {
+    text-align: center;
+  }
+  
+  #side-by-side, #guess-part {
+    border-radius: 10px;
+  }
+  
+  #guess-part, .chance-style {
+    background-color: #c0e3e7;
+  }
+  
+  #dice {
+    width: 250px;
+    height: 100%;
+  }
+  
+  #result {
+    border: 10px solid rgb(177, 177, 177);
+    height: 350px;
+  }
+  
+  #results {
+    font-size: 30px;
+    padding-top: 15px;
+  }
+  
+  #result img {
+    height: 200px;
+    border-radius: 5px;
+  }
+  
